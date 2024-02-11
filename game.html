@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+		
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<style>
+			body { margin: 0; }
+			
+		</style>
+		
+	</head>
+	<body>
+		<audio><source src="/song.mp3" type = "audio/mpeg"></audio>
+		<!--<h1 id="heart"> Heart: 3</h1> -->
+		<script type="importmap">
+			{
+			  "imports": {
+				"three": "https://unpkg.com/three@0.141.0/build/three.module.js"
+			  }
+			}
+		  </script>
+		<script type="module" src="main.js"></script>
+		<div>
+			<center><h id = "heart" style="font-size: 36px;"></h></center>
+			<center><h id = "heart2" ></h></center>
+		</div>
+		<script src="https://kit.fontawesome.com/43a1be4234.js" crossorigin="anonymous"></script>
+	</body>
+</html>
