@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+div {
+    border: 2px solid black;
+    padding: 8px;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div:hover {
+    background-color: black;
+    color: white;
+}
